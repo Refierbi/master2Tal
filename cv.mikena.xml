@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biographie>
+    <personne>
+        <nom>Kamberaj</nom>
+        <prenom>Mikena</prenom>
+        <age>22</age>
+        <sexe>Feminin</sexe>
+        <nationalite>Albanaise</nationalite>
+        <adresse>
+            <rue> 45T Bd Diderot</rue>
+            <ville>	Paris</ville>
+            <codePostal> 75012 </codePostal>
+            <pays>France</pays>
+        </adresse>
+        <contact>
+            <email>mikenakamberaj@gmail.com</email>
+            <telephone>+33 7 59 55 56 90</telephone>
+        </contact>
+        <profession>
+            <titre>Diplômé en traduction allemande</titre>
+            <experience>2ans</experience>
+            <competences>
+                <competence>HTML</competence>
+                <competence>CSS</competence>
+                <competence>JavaScript</competence>
+            </competences>
+            <langues>
+                <langue>
+                    <nom>Albanais</nom>
+                    <niveau>Langue Maternelle</niveau>
+                </langue>
+                <langue>
+                    <nom>Anglais</nom>
+                    <niveau>Courant</niveau>
+                </langue>
+                <langue>
+                    <nom>Allemand</nom>
+                    <niveau>Italien</niveau>
+                </langue>
+                <langue>
+                    <nom>Italien</nom>
+                    <niveau>Courant</niveau>
+                </langue>
+                 <langue>
+                    <nom>Francais</nom>
+                    <niveau>Bien</niveau>
+                </langue>
+            </langues>
+        </profession>
+        <hobbies>
+            <hobby>Volley</hobby>
+            <hobby>Musique</hobby>
+            <hobby>Prendre des photos</hobby>
+        </hobbies>
+    </personne>
+</biographie>
