@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biographie>
+    <personne>
+        <nom>IBRO</nom>
+        <prenom>Refierbi</prenom>
+        <age>25</age>
+        <sexe>Masculin</sexe>
+        <nationalite>Albanais</nationalite>
+        <adresse>
+            <rue> 1 rue Frédéric Joliot Curie</rue>
+            <ville> Villetaneuse</ville>
+            <codePostal> 93430 </codePostal>
+            <pays>France</pays>
+        </adresse>
+        <contact>
+            <email>refierbi.ibro@gmail.com</email>
+            <telephoneAlb>+355684821024</telephoneAlb>
+            <telephoneFr>+33759213823</telephoneFr>
+        </contact>
+        <profession>
+            <titre>Programmer</titre>
+            <experience>1 ans</experience>
+            <competences>
+                <competence>HTML</competence>
+                <competence>Python</competence>
+                <competence>JS</competence>
+                <competence>C++/OOP/C#</competence>
+                <competence>SQL</competence>
+            </competences>
+            <langues>
+                <langue>
+                    <nom>Albanais</nom>
+                    <niveau>Langue Maternelle</niveau>
+                </langue>
+                <langue>
+                    <nom>Anglais</nom>
+                    <niveau>tres bien</niveau>
+                </langue>
+                 <langue>
+                    <nom>Français</nom>
+                    <niveau>Bien</niveau>
+                </langue>
+                <langue>
+                    <nom>Italien</nom>
+                    <niveau>bien</niveau>
+                </langue>
+            </langues>
+        </profession>
+        <hobbies>
+            <hobby>footbool</hobby>
+            <hobby>musique</hobby>
+            <hobby>programmation</hobby>
+        </hobbies>
+    </personne>
+</biographie>

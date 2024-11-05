@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="biographie">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="personne">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom" type="xs:string"/>
+                            <xs:element name="prenom" type="xs:string"/>
+                            <xs:element name="age" type="xs:integer"/>
+                            <xs:element name="sexe" type="xs:string"/>
+                            <xs:element name="nationalite" type="xs:string"/>
+                            <xs:element name="adresse">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="rue" type="xs:string"/>
+                                        <xs:element name="ville" type="xs:string"/>
+                                        <xs:element name="codePostal" type="xs:string"/>
+                                        <xs:element name="pays" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="contact">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="email" type="xs:string"/>
+                                        <xs:element name="telephoneAlb" type="xs:string"/>
+                                        <xs:element name="telephoneFr" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="profession">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titre" type="xs:string"/>
+                                        <xs:element name="experience" type="xs:string"/>
+                                        <xs:element name="competences">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="competence" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="langues">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="langue" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nom" type="xs:string"/>
+                                                                <xs:element name="niveau" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="hobbies">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="hobby" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
